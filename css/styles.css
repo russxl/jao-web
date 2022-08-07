@@ -1,0 +1,214 @@
+/* /title page/ */
+h1{
+    font-family: 'Open Sans', sans-serif;
+
+
+ text-align: center;
+
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+/* /navbar */
+.container-fluid{
+    padding: 3% 17%;
+}
+#title {
+    background-color:#254069 ;
+    padding: 0 17% 5%; 
+}
+
+.logo{
+    width: 90px;
+    background-color: aliceblue;
+    border: solid;
+    border-radius: 100%;
+}
+.nav-item{
+    padding: 0 40px 0 40px;
+    font-size: 25px;
+   font-family: 'Courier New', Courier, monospace;
+    
+}
+.nav-item:hover{
+    opacity: 0.7;
+}
+/* /title content */
+.head{
+    color: #eeba2b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 30px;
+
+    
+}
+.inquire{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif
+    
+
+}
+.head2{
+    padding-top:30px ;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 30px;
+}
+#heads{
+    padding-left: 45px;
+    padding-top: 30px;
+ 
+}
+.trophy{
+    width: 600px;
+
+}
+
+/* / unique */
+#unique{
+    background-color: #fcf9da;
+    text-align: center;
+    position: relative;
+    padding: 3% 17% 3%;
+}
+.square{
+    width: 500px;
+    text-align: center;
+    
+}
+.text{
+    margin: 25px 0;
+   border: solid;
+   height: 300px;
+   padding-top: 40px;
+
+}
+#faf{
+    color: #eeba2b;
+    padding-bottom: 20px;
+}
+#faf:hover{
+    color: #254069;
+}
+/* //samples
+ */
+#samples{
+   
+    padding: 0 17% 3%;
+    text-align: center;
+}
+.samps{
+    text-align: left;
+padding: 40px 10px ;
+width: 200px;
+border-radius: 100%;
+
+  
+}
+
+.pics{
+
+    width: 300px;
+    margin: auto;
+   text-align: center;
+    
+    
+}
+
+   
+    
+
+/* //feeback */
+#feedback{
+ 
+    background-color: #254069;
+    text-align: center;
+}
+.fhead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    padding-bottom: 80px;
+}
+.men{
+    width: 100px;
+}
+.feedss{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 40px
+}
+#carouselExampleIndicators{
+    padding: 3% 17% 3%;
+}
+.star{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* // contact */
+#contact{
+    background-color: #fcf9da;
+    padding: 3% 18% 3%;
+}
+.cons{
+text-align: left;
+padding-bottom: 20px;
+}
+.fb{
+    
+    text-decoration: none;
+    color: black;
+    display: inline;
+    font-family: 'Open Sans', sans-serif
+
+   
+}
+#socials{
+ vertical-align: middle;
+ padding: 10px 20px;
+ color: black;
+ display: inline-block;
+
+}
+#socials:hover{
+    color: #254069;
+}
+ul{
+    list-style-type: none;
+ 
+}
+.mapouter{
+    padding-top: 4px;
+ margin-bottom: 20px;
+
+}
+.map{
+    margin-top: 70px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+#one{
+    margin-left: 30px;
+}
+.visit{
+    padding-top: 77px;
+
+}
+#gmap_canvas{
+    width: 300px;
+}
+/* //footer
+ */
+ #footer{
+    padding:  1% 17%  ;
+text-align: center;
+
+ }
+ 
+.foot{
+    padding-top: 30px;
+}
