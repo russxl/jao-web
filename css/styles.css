@@ -1,4 +1,5 @@
 /* /title page/ */
+
 h1{
     font-family: 'Open Sans', sans-serif;
 
@@ -6,29 +7,38 @@ h1{
  text-align: center;
 
 }
+p{
+    font-family: 'EB Garamond', serif;
+    font-size: 1
+    rem;
+}
 h3{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'EB Garamond', serif;
     font-size: 20px;
+}
+span{
+    font-family: 'EB Garamond', serif;
 }
 /* /navbar */
 .container-fluid{
     padding: 3% 17%;
 }
-#title {
-    background-color:#254069 ;
-    padding: 0 17% 5%; 
+.logo{
+    width: 150px;
 }
 
-.logo{
-    width: 90px;
-    background-color: aliceblue;
-    border: solid;
-    border-radius: 100%;
+#title {
+    background-image:url('images/bg1.jpg') ;
+    text-align: center;
+}
+
+.navbar{
+    padding: 0 17% 3% ; 
 }
 .nav-item{
-    padding: 0 40px 0 40px;
-    font-size: 25px;
-   font-family: 'Courier New', Courier, monospace;
+    padding: 0 20px 0 20px;
+font-size: 20px;
+    font-family: 'EB Garamond', serif;
     
 }
 .nav-item:hover{
@@ -44,17 +54,26 @@ h3{
 
     
 }
-.inquire{
-    font-size: 20px;
+
+#carouselExampleControls1{
+    padding-bottom: 3%  ; 
+}
+
+
+#inquire{
+    color: #eeba2b;
+}
+ .inquire{
+   
     text-decoration: none;
     color: black;
-    font-family: 'Open Sans', sans-serif
-    
+    font-family: 'Open Sans', sans-serif;
+
 
 }
 .head2{
     padding-top:30px ;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'EB Garamond', serif;
     padding-bottom: 30px;
 }
 #heads{
@@ -72,19 +91,16 @@ h3{
     background-color: #fcf9da;
     text-align: center;
     position: relative;
-    padding: 3% 17% 3%;
+    padding: 1% 17% 1%;
 }
 .square{
     width: 500px;
     text-align: center;
     
 }
-.text{
-    margin: 25px 0;
-   border: solid;
-   height: 300px;
-   padding-top: 40px;
 
+.unique-head{
+    font-size: 2rem;
 }
 #faf{
     color: #eeba2b;
@@ -93,26 +109,47 @@ h3{
 #faf:hover{
     color: #254069;
 }
+/* //About */
+#about{
+    padding: 3% 17% ;
+    background-color: #254069;
+    color:#fff ;
+
+}
+.company{
+padding-bottom: 50px;
+color: #CEA434;
+}
+.summer{
+
+max-width: 100%;
+
+
+}
+.summer1{
+    padding: 0px 30px 30px;
+ text-align: center;
+}
 /* //samples
  */
 #samples{
    
     padding: 0 17% 3%;
     text-align: center;
+    background-image: url(/images/bg1.png);
 }
 .samps{
-    text-align: left;
-padding: 40px 10px ;
-width: 200px;
-border-radius: 100%;
+ margin-bottom: 20px;  
+
 
   
 }
 
 .pics{
 
-    width: 300px;
-    margin: auto;
+    max-width: 100%;
+
+padding: 30px;
    text-align: center;
     
     
@@ -126,31 +163,29 @@ border-radius: 100%;
  
     background-color: #254069;
     text-align: center;
-}
-.fhead{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 4rem;
-    padding-bottom: 80px;
-}
-.men{
-    width: 100px;
-}
-.feedss{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    padding-bottom: 40px
-}
-#carouselExampleIndicators{
     padding: 3% 17% 3%;
+    color: #CEA434;
+
 }
-.star{
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+#carouselExampleControls{
+    max-width: 100%;
 }
+.carousel{
+    max-width: 100%;
+   
+}
+.feeds{
+    margin-bottom: 40px;
+}
+
+
+
 /* // contact */
 #contact{
     background-color: #fcf9da;
-    padding: 3% 18% 3%;
+    padding: 3% 17%;
+    
+ 
 }
 .cons{
 text-align: left;
@@ -161,7 +196,7 @@ padding-bottom: 20px;
     text-decoration: none;
     color: black;
     display: inline;
-    font-family: 'Open Sans', sans-serif
+
 
    
 }
@@ -199,14 +234,14 @@ ul{
 
 }
 #gmap_canvas{
-    width: 300px;
+    max-width: 100%;
 }
 /* //footer
  */
  #footer{
     padding:  1% 17%  ;
-text-align: center;
-
+  text-align: center;
+  background-image: url(/images/bg1.png);
  }
  
 .foot{
